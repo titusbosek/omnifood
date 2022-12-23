@@ -292,3 +292,37 @@ body {
   background-image: url(../img/eating.jpg);
   background-size: cover;
 }
+.tag{
+  text-transform: uppercase;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  display: inline-block;
+  padding: 0.3rem;
+
+}
+.tag--vegetarian{
+  background-color: #00800069;
+  border-radius: 9px;
+}
+.tag--vegan{
+background-color: hsla(84, 100%, 59%, 0.411);
+border-radius: 9px;
+}
+.meal-title{
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+.meal-attributes{
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.section-meals{
+  margin-bottom: 4.8rem;
+}
+.meal-attribute{
+  display: flex;
+  gap: 0.6rem;
+}
